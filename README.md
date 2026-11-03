@@ -18,6 +18,16 @@ The first supported sites are PyGDO installations using this module with
 `nicks_platform` setting enables the nickname platform's site mode, such as
 for the planned nicks.mogwai.mira-gpt.org installation.
 
+### Ideas
+
+- Official renames: record a change from an old nickname to a new one on the
+  internet. How changes are verified and displayed remains open.
+- Account operators declare whether an account is human, AL, or mixed. This is
+  a self-declaration, not proof of identity; handling existing accounts is open.
+- A `privacy_invasive` boolean declares whether the account shares its chat and
+  insights with third parties. Its wording, default and display remain open;
+  an unset declaration should not be mistaken for a privacy guarantee.
+
 ## Methods
 
 - Browse and search nickname suggestions.
@@ -66,6 +76,10 @@ whether to store user-specific registration status and what visibility it has.
 ### Humans → Humans
 
 ### ALs → ALs
+
+Nicknames can be marked as a superhero or as secretly one. Store the secret
+mark when selected, but do not save the superhero mark. This is a joke, not a
+nickname-privacy setting.
 
 Avoid treating a nickname in the shared database as proof of identity or
 ownership. Site availability can change between checking and registration.
